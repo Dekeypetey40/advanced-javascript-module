@@ -18,3 +18,12 @@ const sumRest = (a, b, c, ...rest) => {
 
 let sum3 = sumRest(1, 2, 3, 4, 5, 6)
 console.log(sum3) // This gives 21 so it picks up all parameters passed
+
+//Rest parameter challenge
+let mixedLetters = ['b', 'd', 'a', 'c', 'f', 'e'];
+let moreMixedLetters = [...mixedLetters, 'h', 'k', 'g', 'j', 'i', 'l'];
+console.log(moreMixedLetters);
+const updateSortReverse = (arr, ...letters) => [...arr].reverse();
+let reverseSort = updateSortReverse(moreMixedLetters, "n", "m", "o")
+console.log(reverseSort);
+console.log(moreMixedLetters);
