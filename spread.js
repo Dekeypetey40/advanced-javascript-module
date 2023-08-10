@@ -1,7 +1,4 @@
-/**
- * To run this file in Gitpod, use the 
- * command node the-spread-operator.js in the terminal
- */
+
 
 // No spread operator
 let array1 = [1, 2, 3];
